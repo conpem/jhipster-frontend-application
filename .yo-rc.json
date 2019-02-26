@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "frontendapp",
+    "packageName": "com.conpem.jhipster.application",
+    "packageFolder": "com/conpem/jhipster/application",
+    "serverPort": 8087,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "OTFmN2M3NTk1ODE4OGJlNGNlYzVlOGQyNWIwODliOTc1MjAzNDU5OTQ0ZGNiMDRiNTNkODBkYTQ2MWMzYTAwYTM4ODM5NTc2ZDhiMzBkNTMwZDk3MjAyOGUwYWQxNjk1YjYzYWMxOTA0YTZiYzUxZWNmMWQxNWQwOWU5ZjJiMWQ=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "conpem",
+  "repository-name": "jhipster-frontend-application"
+}
